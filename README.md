@@ -10,6 +10,10 @@ This is a framework that uses the same class names as some classes from MapKit a
   - [Capturing instance calls](MKDirectionsCalls.md)
 
 
+- `MKLocalSearch`
+  - [Capturing instance calls](MKLocalSearchCalls.md)
+
+
 - `MKMapView`
   - [Capturing instance calls](MKMapViewCalls.md)
 

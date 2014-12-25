@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A14047F1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */; };
+		0A1404821A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */; };
+		0A1404831A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */; };
+		0A1404851A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */; };
+		0A1404861A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */; };
 		0A9548B01A4BD9390065D9FA /* TestableMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A9548B61A4BD9390065D9FA /* TestableMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */; };
 		0A9548C91A4BDD340065D9FA /* MKMapViewCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */; };
@@ -60,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearchCallsTests.swift; sourceTree = "<group>"; };
+		0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearch.swift; sourceTree = "<group>"; };
+		0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearchCalls.swift; sourceTree = "<group>"; };
 		0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestableMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9548AE1A4BD9390065D9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestableMapKit.h; sourceTree = "<group>"; };
@@ -110,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1404801A4CD2EA001A58CE /* MKLocalSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */,
+				0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */,
+			);
+			path = MKLocalSearch;
+			sourceTree = "<group>";
+		};
 		0A9548A01A4BD9390065D9FA = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC2C96C1A4CC7CA0000E0DF /* MKDirections */,
+				0A1404801A4CD2EA001A58CE /* MKLocalSearch */,
 				0A9548CA1A4BDD5C0065D9FA /* MKMapView */,
 				0A9548E01A4C7CD60065D9FA /* MKOverlayRenderer */,
 				0AC2C95D1A4C9B9E0000E0DF /* MKTileOverlay */,
@@ -173,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC2C96A1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift */,
+				0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */,
 				0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */,
 				0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */,
 				0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */,
@@ -383,6 +402,8 @@
 				0AC2C9571A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
 				0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0AC2C9621A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
+				0A1404851A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
+				0A1404821A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
 				0AC2C95F1A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */,
 				0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
 				0AC2C9681A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
@@ -398,6 +419,7 @@
 				0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */,
 				0AC2C96F1A4CC7D80000E0DF /* MKDirections.swift in Sources */,
 				0AC2C9531A4C8FAA0000E0DF /* MKTileOverlayRendererCallsTests.swift in Sources */,
+				0A1404831A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
 				0AC2C9721A4CC9110000E0DF /* MKDirectionsCalls.swift in Sources */,
 				0AC2C95C1A4C98330000E0DF /* MKTileOverlayCallsTests.swift in Sources */,
 				0AC2C9651A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift in Sources */,
@@ -408,6 +430,7 @@
 				0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0A9548D41A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
 				0AC2C9581A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
+				0A1404861A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
 				0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */,
@@ -417,6 +440,7 @@
 				0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
 				0A9548DB1A4BEF360065D9FA /* Equatability.swift in Sources */,
 				0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
+				0A14047F1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
