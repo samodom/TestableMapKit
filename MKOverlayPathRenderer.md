@@ -6,7 +6,7 @@ Each of the methods below have spy method equivalents that capture the calls to 
 - `var invalidateCalled: Bool`
 
 
-> After capturing the call to the method, these spies forward the call to the superclass (real) implementation.  If you would like for any of these spies to not forward the method call to the superclass implementation, simply insert the following call at the beginning of your test with an appropriate selector:
+> After capturing the call to the method, this spy forwards the call to the superclass (real) implementation.  If you would like for the spy to not forward the method call to the superclass implementation, simply insert the following call at the beginning of your test:
 >
 > `renderer.setShouldForwardMethodCallWithSelector("invalidate", false)`
 >
