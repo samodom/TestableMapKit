@@ -6,8 +6,13 @@ This is a framework that uses the same class names as some classes from MapKit a
 
 ### Method Spies
 
+- `MKDirections`
+  - [Capturing instance calls](MKDirectionsCalls.md)
+
+
 - `MKMapView`
   - [Capturing instance calls](MKMapViewCalls.md)
+
 
 - `MKOverlayRenderer`
   - [Capturing instance calls](MKOverlayRendererCalls.md)
@@ -16,8 +21,10 @@ This is a framework that uses the same class names as some classes from MapKit a
   - `MKTileOverlayRenderer`
     - [Capturing instance calls](MKTileOverlayRendererCalls.md)
 
+
 - `MKTileOverlay`
   - [Capturing instance calls](MKTileOverlayCalls.md)
+
 
 
 ### Mutable Immutables
