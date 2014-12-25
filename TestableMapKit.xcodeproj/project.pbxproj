@@ -24,6 +24,11 @@
 		0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */; };
 		0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */; };
 		0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */; };
+		0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
+		0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
+		0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */; };
+		0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */; };
+		0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,9 @@
 		0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCallsTests.swift; sourceTree = "<group>"; };
 		0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRenderer.swift; sourceTree = "<group>"; };
 		0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCalls.swift; sourceTree = "<group>"; };
+		0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRenderer.swift; sourceTree = "<group>"; };
+		0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCalls.swift; sourceTree = "<group>"; };
+		0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCallsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 		0A9548C61A4BD9D70065D9FA /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */,
 				0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */,
 				0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */,
 				0A9548CE1A4BE3110065D9FA /* ShimMethodForwardingListTests.swift */,
@@ -168,10 +177,20 @@
 		0A9548E01A4C7CD60065D9FA /* MKOverlayRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				0AC2C9491A4C8C250000E0DF /* MKOverlayPathRenderer */,
 				0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */,
 				0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */,
 			);
 			path = MKOverlayRenderer;
+			sourceTree = "<group>";
+		};
+		0AC2C9491A4C8C250000E0DF /* MKOverlayPathRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */,
+				0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */,
+			);
+			path = MKOverlayPathRenderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0A9548D31A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
 				0A9548D61A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548CC1A4BDD720065D9FA /* MKMapView.swift in Sources */,
 				0A9548E21A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
+				0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */,
 				0A9548C91A4BDD340065D9FA /* MKMapViewCallsTests.swift in Sources */,
 				0A9548D01A4BE3110065D9FA /* ShimMethodForwardingListTests.swift in Sources */,
+				0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0A9548D41A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
+				0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */,
 				0A9548DF1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift in Sources */,
@@ -489,6 +513,7 @@
 				0A9548C21A4BD9390065D9FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9548C31A4BD9390065D9FA /* Build configuration list for PBXNativeTarget "TestableMapKitTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +522,7 @@
 				0A9548C51A4BD9390065D9FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
