@@ -6,6 +6,10 @@ This is a framework that uses the same class names as some classes from MapKit a
 
 ### Method Spies
 
+- `MKAnnotationView`
+  - [Capturing instance calls](MKAnnotationViewCalls.md)
+
+
 - `MKDirections`
   - [Capturing instance calls](MKDirectionsCalls.md)
 

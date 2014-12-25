@@ -12,6 +12,11 @@
 		0A1404831A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */; };
 		0A1404851A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */; };
 		0A1404861A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */; };
+		0A1404881A4CD502001A58CE /* MKAnnotationViewCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */; };
+		0A14048E1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */; };
+		0A14048F1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */; };
+		0A1404911A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */; };
+		0A1404921A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */; };
 		0A9548B01A4BD9390065D9FA /* TestableMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A9548B61A4BD9390065D9FA /* TestableMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */; };
 		0A9548C91A4BDD340065D9FA /* MKMapViewCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */; };
@@ -68,6 +73,9 @@
 		0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearchCallsTests.swift; sourceTree = "<group>"; };
 		0A1404811A4CD2FF001A58CE /* MKLocalSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearch.swift; sourceTree = "<group>"; };
 		0A1404841A4CD30A001A58CE /* MKLocalSearchCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLocalSearchCalls.swift; sourceTree = "<group>"; };
+		0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationViewCallsTests.swift; sourceTree = "<group>"; };
+		0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationView.swift; sourceTree = "<group>"; };
+		0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationViewCalls.swift; sourceTree = "<group>"; };
 		0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestableMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9548AE1A4BD9390065D9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestableMapKit.h; sourceTree = "<group>"; };
@@ -127,6 +135,15 @@
 			path = MKLocalSearch;
 			sourceTree = "<group>";
 		};
+		0A1404891A4CD68A001A58CE /* MKAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */,
+				0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */,
+			);
+			path = MKAnnotationView;
+			sourceTree = "<group>";
+		};
 		0A9548A01A4BD9390065D9FA = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +165,7 @@
 		0A9548AC1A4BD9390065D9FA /* TestableMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				0A1404891A4CD68A001A58CE /* MKAnnotationView */,
 				0AC2C96C1A4CC7CA0000E0DF /* MKDirections */,
 				0A1404801A4CD2EA001A58CE /* MKLocalSearch */,
 				0A9548CA1A4BDD5C0065D9FA /* MKMapView */,
@@ -190,6 +208,7 @@
 		0A9548C61A4BD9D70065D9FA /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */,
 				0AC2C96A1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift */,
 				0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */,
 				0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */,
@@ -394,6 +413,7 @@
 				0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0AC2C9711A4CC9110000E0DF /* MKDirectionsCalls.swift in Sources */,
 				0A9548D31A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
+				0A1404911A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */,
 				0A9548D61A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548CC1A4BDD720065D9FA /* MKMapView.swift in Sources */,
 				0AC2C9591A4C90490000E0DF /* MKTileOverlayRendererCalls.swift in Sources */,
@@ -405,6 +425,7 @@
 				0A1404851A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
 				0A1404821A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
 				0AC2C95F1A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */,
+				0A14048E1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */,
 				0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
 				0AC2C9681A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
 			);
@@ -429,17 +450,20 @@
 				0AC2C9691A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
 				0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0A9548D41A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
+				0A1404921A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */,
 				0AC2C9581A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
 				0A1404861A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
 				0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */,
+				0A14048F1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */,
 				0AC2C9631A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
 				0A9548DF1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift in Sources */,
 				0A9548CD1A4BDD720065D9FA /* MKMapView.swift in Sources */,
 				0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
 				0A9548DB1A4BEF360065D9FA /* Equatability.swift in Sources */,
 				0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
+				0A1404881A4CD502001A58CE /* MKAnnotationViewCallsTests.swift in Sources */,
 				0A14047F1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
