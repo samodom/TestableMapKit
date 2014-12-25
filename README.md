@@ -5,3 +5,6 @@ This is a framework that uses the same class names as some classes from MapKit a
 
 - `MKMapView`
   - [Capturing instance calls](MKMapViewCalls.md)
+
+- `MKOverlayRenderer`
+  - [Capturing instance calls](MKOverlayRenderer.md)
