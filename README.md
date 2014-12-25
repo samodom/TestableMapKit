@@ -10,3 +10,5 @@ This is a framework that uses the same class names as some classes from MapKit a
   - [Capturing instance calls](MKOverlayRenderer.md)
   - `MKOverlayPathRenderer`
     - [Capturing instance calls](MKOverlayPathRenderer.md)
+  - `MKTileOverlayRenderer`
+    - [Capturing instance calls](MKTileOverlayRenderer.md)
