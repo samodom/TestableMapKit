@@ -39,6 +39,9 @@
 		0AC2C9601A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C95E1A4C9CDD0000E0DF /* MKTileOverlay.swift */; };
 		0AC2C9621A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9611A4C9CED0000E0DF /* MKTileOverlayCalls.swift */; };
 		0AC2C9631A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9611A4C9CED0000E0DF /* MKTileOverlayCalls.swift */; };
+		0AC2C9651A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */; };
+		0AC2C9681A4CA37F0000E0DF /* MKUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9671A4CA37F0000E0DF /* MKUserLocation.swift */; };
+		0AC2C9691A4CA37F0000E0DF /* MKUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C9671A4CA37F0000E0DF /* MKUserLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,8 @@
 		0AC2C95B1A4C98330000E0DF /* MKTileOverlayCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTileOverlayCallsTests.swift; sourceTree = "<group>"; };
 		0AC2C95E1A4C9CDD0000E0DF /* MKTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTileOverlay.swift; sourceTree = "<group>"; };
 		0AC2C9611A4C9CED0000E0DF /* MKTileOverlayCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTileOverlayCalls.swift; sourceTree = "<group>"; };
+		0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableMKUserLocationTests.swift; sourceTree = "<group>"; };
+		0AC2C9671A4CA37F0000E0DF /* MKUserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKUserLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 				0A9548CA1A4BDD5C0065D9FA /* MKMapView */,
 				0A9548E01A4C7CD60065D9FA /* MKOverlayRenderer */,
 				0AC2C95D1A4C9B9E0000E0DF /* MKTileOverlay */,
+				0AC2C9661A4CA31E0000E0DF /* MKUserLocation */,
 				0A9548AD1A4BD9390065D9FA /* Supporting Files */,
 				0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */,
 				0A9548D11A4BE3460065D9FA /* Tools */,
@@ -157,6 +163,7 @@
 		0A9548C61A4BD9D70065D9FA /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */,
 				0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */,
 				0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */,
 				0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */,
@@ -229,6 +236,14 @@
 				0AC2C9611A4C9CED0000E0DF /* MKTileOverlayCalls.swift */,
 			);
 			path = MKTileOverlay;
+			sourceTree = "<group>";
+		};
+		0AC2C9661A4CA31E0000E0DF /* MKUserLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0AC2C9671A4CA37F0000E0DF /* MKUserLocation.swift */,
+			);
+			path = MKUserLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +364,7 @@
 				0AC2C9621A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
 				0AC2C95F1A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */,
 				0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
+				0AC2C9681A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +376,11 @@
 				0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */,
 				0AC2C9531A4C8FAA0000E0DF /* MKTileOverlayRendererCallsTests.swift in Sources */,
 				0AC2C95C1A4C98330000E0DF /* MKTileOverlayCallsTests.swift in Sources */,
+				0AC2C9651A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift in Sources */,
 				0AC2C95A1A4C90490000E0DF /* MKTileOverlayRendererCalls.swift in Sources */,
 				0A9548C91A4BDD340065D9FA /* MKMapViewCallsTests.swift in Sources */,
 				0A9548D01A4BE3110065D9FA /* ShimMethodForwardingListTests.swift in Sources */,
+				0AC2C9691A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
 				0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0A9548D41A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
 				0AC2C9581A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
