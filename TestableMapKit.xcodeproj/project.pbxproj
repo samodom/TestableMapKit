@@ -34,6 +34,11 @@
 		0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */; };
 		0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */; };
 		0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */; };
+		0AB88AA31A4D39B2005DF8D8 /* MKMapSnapshotterCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AA21A4D39B2005DF8D8 /* MKMapSnapshotterCallsTests.swift */; };
+		0AB88AA61A4D3C87005DF8D8 /* MKMapSnapshotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AA51A4D3C87005DF8D8 /* MKMapSnapshotter.swift */; };
+		0AB88AA71A4D3C87005DF8D8 /* MKMapSnapshotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AA51A4D3C87005DF8D8 /* MKMapSnapshotter.swift */; };
+		0AB88AA91A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AA81A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift */; };
+		0AB88AAA1A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AA81A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift */; };
 		0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */; };
@@ -91,6 +96,9 @@
 		0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCallsTests.swift; sourceTree = "<group>"; };
 		0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRenderer.swift; sourceTree = "<group>"; };
 		0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCalls.swift; sourceTree = "<group>"; };
+		0AB88AA21A4D39B2005DF8D8 /* MKMapSnapshotterCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapSnapshotterCallsTests.swift; sourceTree = "<group>"; };
+		0AB88AA51A4D3C87005DF8D8 /* MKMapSnapshotter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapSnapshotter.swift; sourceTree = "<group>"; };
+		0AB88AA81A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapSnapshotterCalls.swift; sourceTree = "<group>"; };
 		0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRenderer.swift; sourceTree = "<group>"; };
 		0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCalls.swift; sourceTree = "<group>"; };
 		0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCallsTests.swift; sourceTree = "<group>"; };
@@ -168,6 +176,7 @@
 				0A1404891A4CD68A001A58CE /* MKAnnotationView */,
 				0AC2C96C1A4CC7CA0000E0DF /* MKDirections */,
 				0A1404801A4CD2EA001A58CE /* MKLocalSearch */,
+				0AB88AA41A4D3C71005DF8D8 /* MKMapSnapshotter */,
 				0A9548CA1A4BDD5C0065D9FA /* MKMapView */,
 				0A9548E01A4C7CD60065D9FA /* MKOverlayRenderer */,
 				0AC2C95D1A4C9B9E0000E0DF /* MKTileOverlay */,
@@ -211,6 +220,7 @@
 				0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */,
 				0AC2C96A1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift */,
 				0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */,
+				0AB88AA21A4D39B2005DF8D8 /* MKMapSnapshotterCallsTests.swift */,
 				0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */,
 				0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */,
 				0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */,
@@ -257,6 +267,15 @@
 				0AC2C9541A4C90490000E0DF /* MKTileOverlayRenderer */,
 			);
 			path = MKOverlayRenderer;
+			sourceTree = "<group>";
+		};
+		0AB88AA41A4D3C71005DF8D8 /* MKMapSnapshotter */ = {
+			isa = PBXGroup;
+			children = (
+				0AB88AA51A4D3C87005DF8D8 /* MKMapSnapshotter.swift */,
+				0AB88AA81A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift */,
+			);
+			path = MKMapSnapshotter;
 			sourceTree = "<group>";
 		};
 		0AC2C9491A4C8C250000E0DF /* MKOverlayPathRenderer */ = {
@@ -412,6 +431,7 @@
 			files = (
 				0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */,
 				0AC2C9711A4CC9110000E0DF /* MKDirectionsCalls.swift in Sources */,
+				0AB88AA91A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift in Sources */,
 				0A9548D31A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
 				0A1404911A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */,
 				0A9548D61A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
@@ -421,6 +441,7 @@
 				0A9548E21A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
 				0AC2C9571A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
 				0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
+				0AB88AA61A4D3C87005DF8D8 /* MKMapSnapshotter.swift in Sources */,
 				0AC2C9621A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
 				0A1404851A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
 				0A1404821A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
@@ -437,7 +458,9 @@
 			files = (
 				0AC2C9601A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */,
 				0AC2C96B1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift in Sources */,
+				0AB88AA71A4D3C87005DF8D8 /* MKMapSnapshotter.swift in Sources */,
 				0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */,
+				0AB88AA31A4D39B2005DF8D8 /* MKMapSnapshotterCallsTests.swift in Sources */,
 				0AC2C96F1A4CC7D80000E0DF /* MKDirections.swift in Sources */,
 				0AC2C9531A4C8FAA0000E0DF /* MKTileOverlayRendererCallsTests.swift in Sources */,
 				0A1404831A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
@@ -452,6 +475,7 @@
 				0A9548D41A4BE3460065D9FA /* ShimMethodForwarding.swift in Sources */,
 				0A1404921A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */,
 				0AC2C9581A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
+				0AB88AAA1A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift in Sources */,
 				0A1404861A4CD30A001A58CE /* MKLocalSearchCalls.swift in Sources */,
 				0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,

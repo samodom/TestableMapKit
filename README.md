@@ -18,6 +18,10 @@ This is a framework that uses the same class names as some classes from MapKit a
   - [Capturing instance calls](MKLocalSearchCalls.md)
 
 
+- `MKMapSnapshotter`
+  - [Capturing instance calls](MKMapSnapshotterCalls.md)
+
+
 - `MKMapView`
   - [Capturing instance calls](MKMapViewCalls.md)
 
