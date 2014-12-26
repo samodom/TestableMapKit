@@ -42,6 +42,9 @@
 		0AB88AAC1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */; };
 		0AB88AAF1A4D4692005DF8D8 /* MKRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AAE1A4D4692005DF8D8 /* MKRoute.swift */; };
 		0AB88AB01A4D4692005DF8D8 /* MKRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AAE1A4D4692005DF8D8 /* MKRoute.swift */; };
+		0AB88AB21A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */; };
+		0AB88AB51A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */; };
+		0AB88AB61A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */; };
 		0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */; };
@@ -104,6 +107,8 @@
 		0AB88AA81A4D3C91005DF8D8 /* MKMapSnapshotterCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapSnapshotterCalls.swift; sourceTree = "<group>"; };
 		0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableMKRouteTests.swift; sourceTree = "<group>"; };
 		0AB88AAE1A4D4692005DF8D8 /* MKRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRoute.swift; sourceTree = "<group>"; };
+		0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableMKRouteStepTests.swift; sourceTree = "<group>"; };
+		0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRouteStep.swift; sourceTree = "<group>"; };
 		0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRenderer.swift; sourceTree = "<group>"; };
 		0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCalls.swift; sourceTree = "<group>"; };
 		0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCallsTests.swift; sourceTree = "<group>"; };
@@ -185,6 +190,7 @@
 				0A9548CA1A4BDD5C0065D9FA /* MKMapView */,
 				0A9548E01A4C7CD60065D9FA /* MKOverlayRenderer */,
 				0AB88AAD1A4D4684005DF8D8 /* MKRoute */,
+				0AB88AB31A4D4B74005DF8D8 /* MKRouteStep */,
 				0AC2C95D1A4C9B9E0000E0DF /* MKTileOverlay */,
 				0AC2C9661A4CA31E0000E0DF /* MKUserLocation */,
 				0A9548AD1A4BD9390065D9FA /* Supporting Files */,
@@ -223,7 +229,6 @@
 		0A9548C61A4BD9D70065D9FA /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */,
 				0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */,
 				0AC2C96A1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift */,
 				0A14047E1A4CD1DD001A58CE /* MKLocalSearchCallsTests.swift */,
@@ -233,6 +238,8 @@
 				0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */,
 				0AC2C95B1A4C98330000E0DF /* MKTileOverlayCallsTests.swift */,
 				0AC2C9521A4C8FAA0000E0DF /* MKTileOverlayRendererCallsTests.swift */,
+				0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */,
+				0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */,
 				0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */,
 				0A9548CE1A4BE3110065D9FA /* ShimMethodForwardingListTests.swift */,
 			);
@@ -291,6 +298,14 @@
 				0AB88AAE1A4D4692005DF8D8 /* MKRoute.swift */,
 			);
 			path = MKRoute;
+			sourceTree = "<group>";
+		};
+		0AB88AB31A4D4B74005DF8D8 /* MKRouteStep */ = {
+			isa = PBXGroup;
+			children = (
+				0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */,
+			);
+			path = MKRouteStep;
 			sourceTree = "<group>";
 		};
 		0AC2C9491A4C8C250000E0DF /* MKOverlayPathRenderer */ = {
@@ -465,6 +480,7 @@
 				0A14048E1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */,
 				0A9548E51A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
 				0AC2C9681A4CA37F0000E0DF /* MKUserLocation.swift in Sources */,
+				0AB88AB51A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC2C9601A4C9CDD0000E0DF /* MKTileOverlay.swift in Sources */,
+				0AB88AB61A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */,
 				0AC2C96B1A4CC3DB0000E0DF /* MKDirectionsCallsTests.swift in Sources */,
 				0AB88AA71A4D3C87005DF8D8 /* MKMapSnapshotter.swift in Sources */,
 				0AC2C9511A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift in Sources */,
@@ -500,6 +517,7 @@
 				0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */,
 				0A14048F1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */,
 				0AC2C9631A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
+				0AB88AB21A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift in Sources */,
 				0A9548DF1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift in Sources */,
 				0A9548CD1A4BDD720065D9FA /* MKMapView.swift in Sources */,
 				0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
