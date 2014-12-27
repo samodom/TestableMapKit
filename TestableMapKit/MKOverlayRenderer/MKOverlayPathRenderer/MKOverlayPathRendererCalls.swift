@@ -17,7 +17,47 @@ public extension MKOverlayPathRenderer {
             super.invalidatePath()
         }
     }
-    
+
+    public override func applyStrokePropertiesToContext(context: CGContext!, atZoomScale zoomScale: MKZoomScale) {
+        applyStrokePropertiesCalled = true
+        applyStrokePropertiesContext = context
+        applyStrokePropertiesZoomScale = zoomScale
+
+        if shouldForwardMethodCallWithSelector("applyStrokePropertiesToContext:atZoomScale:") {
+            super.applyStrokePropertiesToContext(context, atZoomScale: zoomScale)
+        }
+    }
+
+    public override func applyFillPropertiesToContext(context: CGContext!, atZoomScale zoomScale: MKZoomScale) {
+        applyFillPropertiesCalled = true
+        applyFillPropertiesContext = context
+        applyFillPropertiesZoomScale = zoomScale
+
+        if shouldForwardMethodCallWithSelector("applyFillPropertiesToContext:atZoomScale:") {
+            super.applyStrokePropertiesToContext(context, atZoomScale: zoomScale)
+        }
+    }
+
+    public override func strokePath(path: CGPath!, inContext context: CGContext!) {
+        strokePathCalled = true
+        strokePathPath = path
+        strokePathContext = context
+
+        if shouldForwardMethodCallWithSelector("strokePath:inContext:") {
+            super.strokePath(path, inContext: context)
+        }
+    }
+
+    public override func fillPath(path: CGPath!, inContext context: CGContext!) {
+        fillPathCalled = true
+        fillPathPath = path
+        fillPathContext = context
+
+        if shouldForwardMethodCallWithSelector("fillPath:inContext:") {
+            super.fillPath(path, inContext: context)
+        }
+    }
+
 }
 
 extension MKOverlayPathRenderer: ShimMethodForwarding {
