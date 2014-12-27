@@ -50,3 +50,4 @@ This is a framework that uses the same class names as some classes from MapKit a
 ### Sample Classes
 
 - `SampleAnnotation`
+- `SampleOverlay`

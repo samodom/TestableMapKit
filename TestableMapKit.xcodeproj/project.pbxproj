@@ -47,6 +47,9 @@
 		0AB88AB21A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */; };
 		0AB88AB51A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */; };
 		0AB88AB61A4D4B74005DF8D8 /* MKRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */; };
+		0ABF989B1A4E67A700F38314 /* SampleOverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABF989A1A4E67A700F38314 /* SampleOverlayTests.swift */; };
+		0ABF989D1A4E6AF500F38314 /* SampleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABF989C1A4E6AF500F38314 /* SampleOverlay.swift */; };
+		0ABF989E1A4E6AF500F38314 /* SampleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABF989C1A4E6AF500F38314 /* SampleOverlay.swift */; };
 		0AC2C94C1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94D1A4C8C250000E0DF /* MKOverlayPathRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */; };
 		0AC2C94E1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */; };
@@ -112,6 +115,8 @@
 		0AB88AAE1A4D4692005DF8D8 /* MKRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRoute.swift; sourceTree = "<group>"; };
 		0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableMKRouteStepTests.swift; sourceTree = "<group>"; };
 		0AB88AB41A4D4B74005DF8D8 /* MKRouteStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRouteStep.swift; sourceTree = "<group>"; };
+		0ABF989A1A4E67A700F38314 /* SampleOverlayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleOverlayTests.swift; sourceTree = "<group>"; };
+		0ABF989C1A4E6AF500F38314 /* SampleOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleOverlay.swift; sourceTree = "<group>"; };
 		0AC2C94A1A4C8C250000E0DF /* MKOverlayPathRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRenderer.swift; sourceTree = "<group>"; };
 		0AC2C94B1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCalls.swift; sourceTree = "<group>"; };
 		0AC2C9501A4C8C870000E0DF /* MKOverlayPathRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayPathRendererCallsTests.swift; sourceTree = "<group>"; };
@@ -169,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8DD39B1A4E63D400799224 /* SampleAnnotation.swift */,
+				0ABF989C1A4E6AF500F38314 /* SampleOverlay.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 				0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */,
 				0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */,
 				0A8DD3981A4E62BF00799224 /* SampleAnnotationTests.swift */,
+				0ABF989A1A4E67A700F38314 /* SampleOverlayTests.swift */,
 				0A9548CE1A4BE3110065D9FA /* ShimMethodForwardingListTests.swift */,
 			);
 			path = Tests;
@@ -481,6 +488,7 @@
 				0A9548CC1A4BDD720065D9FA /* MKMapView.swift in Sources */,
 				0A8DD39C1A4E63D400799224 /* SampleAnnotation.swift in Sources */,
 				0AC2C9591A4C90490000E0DF /* MKTileOverlayRendererCalls.swift in Sources */,
+				0ABF989D1A4E6AF500F38314 /* SampleOverlay.swift in Sources */,
 				0AC2C96E1A4CC7D80000E0DF /* MKDirections.swift in Sources */,
 				0A9548E21A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
 				0AC2C9571A4C90490000E0DF /* MKTileOverlayRenderer.swift in Sources */,
@@ -511,6 +519,7 @@
 				0AC2C9531A4C8FAA0000E0DF /* MKTileOverlayRendererCallsTests.swift in Sources */,
 				0A1404831A4CD2FF001A58CE /* MKLocalSearch.swift in Sources */,
 				0AC2C9721A4CC9110000E0DF /* MKDirectionsCalls.swift in Sources */,
+				0ABF989E1A4E6AF500F38314 /* SampleOverlay.swift in Sources */,
 				0AC2C95C1A4C98330000E0DF /* MKTileOverlayCallsTests.swift in Sources */,
 				0AB88AAC1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift in Sources */,
 				0AC2C9651A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift in Sources */,
@@ -535,6 +544,7 @@
 				0A8DD3991A4E62BF00799224 /* SampleAnnotationTests.swift in Sources */,
 				0A8DD39D1A4E63D400799224 /* SampleAnnotation.swift in Sources */,
 				0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
+				0ABF989B1A4E67A700F38314 /* SampleOverlayTests.swift in Sources */,
 				0A9548DB1A4BEF360065D9FA /* Equatability.swift in Sources */,
 				0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
 				0A1404881A4CD502001A58CE /* MKAnnotationViewCallsTests.swift in Sources */,
