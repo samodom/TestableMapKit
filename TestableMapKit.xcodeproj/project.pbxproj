@@ -17,6 +17,9 @@
 		0A14048F1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */; };
 		0A1404911A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */; };
 		0A1404921A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */; };
+		0A8DD3991A4E62BF00799224 /* SampleAnnotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DD3981A4E62BF00799224 /* SampleAnnotationTests.swift */; };
+		0A8DD39C1A4E63D400799224 /* SampleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DD39B1A4E63D400799224 /* SampleAnnotation.swift */; };
+		0A8DD39D1A4E63D400799224 /* SampleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DD39B1A4E63D400799224 /* SampleAnnotation.swift */; };
 		0A9548B01A4BD9390065D9FA /* TestableMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A9548B61A4BD9390065D9FA /* TestableMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */; };
 		0A9548C91A4BDD340065D9FA /* MKMapViewCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548C81A4BDD340065D9FA /* MKMapViewCallsTests.swift */; };
@@ -28,7 +31,6 @@
 		0A9548D61A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548D51A4BE3AF0065D9FA /* MKMapViewCalls.swift */; };
 		0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548D51A4BE3AF0065D9FA /* MKMapViewCalls.swift */; };
 		0A9548DB1A4BEF360065D9FA /* Equatability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548DA1A4BEF360065D9FA /* Equatability.swift */; };
-		0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548DC1A4BF0BE0065D9FA /* SampleAnnotation.swift */; };
 		0A9548DF1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */; };
 		0A9548E21A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */; };
 		0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */; };
@@ -87,6 +89,8 @@
 		0A1404871A4CD502001A58CE /* MKAnnotationViewCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationViewCallsTests.swift; sourceTree = "<group>"; };
 		0A14048D1A4CD6B1001A58CE /* MKAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationView.swift; sourceTree = "<group>"; };
 		0A1404901A4CD6E5001A58CE /* MKAnnotationViewCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationViewCalls.swift; sourceTree = "<group>"; };
+		0A8DD3981A4E62BF00799224 /* SampleAnnotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAnnotationTests.swift; sourceTree = "<group>"; };
+		0A8DD39B1A4E63D400799224 /* SampleAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAnnotation.swift; sourceTree = "<group>"; };
 		0A9548AA1A4BD9390065D9FA /* TestableMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestableMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9548AE1A4BD9390065D9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestableMapKit.h; sourceTree = "<group>"; };
@@ -98,7 +102,6 @@
 		0A9548D21A4BE3460065D9FA /* ShimMethodForwarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimMethodForwarding.swift; sourceTree = "<group>"; };
 		0A9548D51A4BE3AF0065D9FA /* MKMapViewCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapViewCalls.swift; sourceTree = "<group>"; };
 		0A9548DA1A4BEF360065D9FA /* Equatability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equatability.swift; sourceTree = "<group>"; };
-		0A9548DC1A4BF0BE0065D9FA /* SampleAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAnnotation.swift; sourceTree = "<group>"; };
 		0A9548DE1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCallsTests.swift; sourceTree = "<group>"; };
 		0A9548E11A4C7CED0065D9FA /* MKOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRenderer.swift; sourceTree = "<group>"; };
 		0A9548E41A4C7CF90065D9FA /* MKOverlayRendererCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOverlayRendererCalls.swift; sourceTree = "<group>"; };
@@ -162,6 +165,14 @@
 			path = MKAnnotationView;
 			sourceTree = "<group>";
 		};
+		0A8DD39A1A4E63D400799224 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				0A8DD39B1A4E63D400799224 /* SampleAnnotation.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
 		0A9548A01A4BD9390065D9FA = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +204,7 @@
 				0AB88AB31A4D4B74005DF8D8 /* MKRouteStep */,
 				0AC2C95D1A4C9B9E0000E0DF /* MKTileOverlay */,
 				0AC2C9661A4CA31E0000E0DF /* MKUserLocation */,
+				0A8DD39A1A4E63D400799224 /* Sample */,
 				0A9548AD1A4BD9390065D9FA /* Supporting Files */,
 				0A9548AF1A4BD9390065D9FA /* TestableMapKit.h */,
 				0A9548D11A4BE3460065D9FA /* Tools */,
@@ -241,6 +253,7 @@
 				0AB88AB11A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift */,
 				0AB88AAB1A4D3FC5005DF8D8 /* MutableMKRouteTests.swift */,
 				0AC2C9641A4CA1BA0000E0DF /* MutableMKUserLocationTests.swift */,
+				0A8DD3981A4E62BF00799224 /* SampleAnnotationTests.swift */,
 				0A9548CE1A4BE3110065D9FA /* ShimMethodForwardingListTests.swift */,
 			);
 			path = Tests;
@@ -250,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				0A9548DA1A4BEF360065D9FA /* Equatability.swift */,
-				0A9548DC1A4BF0BE0065D9FA /* SampleAnnotation.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -467,6 +479,7 @@
 				0A1404911A4CD6E5001A58CE /* MKAnnotationViewCalls.swift in Sources */,
 				0A9548D61A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0A9548CC1A4BDD720065D9FA /* MKMapView.swift in Sources */,
+				0A8DD39C1A4E63D400799224 /* SampleAnnotation.swift in Sources */,
 				0AC2C9591A4C90490000E0DF /* MKTileOverlayRendererCalls.swift in Sources */,
 				0AC2C96E1A4CC7D80000E0DF /* MKDirections.swift in Sources */,
 				0A9548E21A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
@@ -514,12 +527,13 @@
 				0AC2C94F1A4C8C250000E0DF /* MKOverlayPathRendererCalls.swift in Sources */,
 				0A9548D71A4BE3AF0065D9FA /* MKMapViewCalls.swift in Sources */,
 				0AB88AB01A4D4692005DF8D8 /* MKRoute.swift in Sources */,
-				0A9548DD1A4BF0BE0065D9FA /* SampleAnnotation.swift in Sources */,
 				0A14048F1A4CD6B1001A58CE /* MKAnnotationView.swift in Sources */,
 				0AC2C9631A4C9CED0000E0DF /* MKTileOverlayCalls.swift in Sources */,
 				0AB88AB21A4D4A66005DF8D8 /* MutableMKRouteStepTests.swift in Sources */,
 				0A9548DF1A4C7BF80065D9FA /* MKOverlayRendererCallsTests.swift in Sources */,
 				0A9548CD1A4BDD720065D9FA /* MKMapView.swift in Sources */,
+				0A8DD3991A4E62BF00799224 /* SampleAnnotationTests.swift in Sources */,
+				0A8DD39D1A4E63D400799224 /* SampleAnnotation.swift in Sources */,
 				0A9548E31A4C7CED0065D9FA /* MKOverlayRenderer.swift in Sources */,
 				0A9548DB1A4BEF360065D9FA /* Equatability.swift in Sources */,
 				0A9548E61A4C7CF90065D9FA /* MKOverlayRendererCalls.swift in Sources */,
